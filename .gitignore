@@ -2,7 +2,7 @@
 \.classpath
 \.project
 \.settings\
-\Bin\
+\bin\
 
 #FIRST
 \build\
