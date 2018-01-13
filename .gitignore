@@ -2,11 +2,11 @@
 \.classpath
 \.project
 \.settings\
-\Bin\
+Bin\
 
 #FIRST
 \build\
-\Distrubutions\
+Distrubutions\
 sysProps.xml\
 
 #Misc
