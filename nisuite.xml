@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suiteDefinition MIFVersion="17.0.0.211" timeStamp="Wed Dec 20 20:55:55 2017" xmlns="NIMetaSuite" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="NIMetaSuite MetaSuiteDefinition.xsd">
+  <suiteId GUID="{B3641957-54A5-4924-A357-90795248FCA7}" packageGUID="{A2DB640D-293F-437F-8561-D04D62815BC1}" version="17.0.0" />
+  <distribution id="LVUPDATE">
+    <distId GUID="{01A7605E-DB49-4226-995D-76BB9B2A075A}" languages="0009" packageGUID="{403E5F52-FF3F-48BF-9703-07B6DFCD263E}" version="17.0.0" />
+    <inputRoot suiteVolume="1">Distributions\LabVIEW Update\</inputRoot>
+    <installOrder>100</installOrder>
+    <EULAId>FIRST Team Competition</EULAId>
+    <EULAId>NIStandardReleased</EULAId>
+    <distributionType>ADE</distributionType>
+    <name language="0009">LabVIEW Update</name>
+    <description language="0009">Update for FRC 2018 LabVIEW development teams.</description>
+    <installOptionSetId>NoCustomInstall</installOptionSetId>
+    <setupExeVersion>17.0.0.211</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>17.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation />
+    <products>
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="17.00.49161" />
+      <product UPC="{2D325950-D641-4190-BFCA-5E2431B5F6A3}" UPV="17.0.0" />
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="17.00.49156" />
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="17.00.49156" />
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="2.00.49152" />
+      <product ProductVersion="2.00.49152" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}" />
+    </products>
+  </distribution>
+  <distribution hasNICertificate="true" id="DSUPDATE">
+    <distId GUID="{2A2E8087-62FC-47B0-A8F9-7D5C496E2E32}" languages="0009" packageGUID="{2894BD24-1660-434E-9FDE-72BE6DA61E8C}" version="17.0.0" />
+    <inputRoot suiteVolume="1">Distributions\DS Update\</inputRoot>
+    <installOrder>200</installOrder>
+    <serialGroupId>DSUPDATE</serialGroupId>
+    <EULAId>FIRST Team Competition</EULAId>
+    <EULAId>NIStandardReleased</EULAId>
+    <EULAId>SilverlightPrivacy_5.1</EULAId>
+    <EULAId>Silverlight_5.0</EULAId>
+    <distributionType>ADE</distributionType>
+    <name language="0009">FRC Driver Station</name>
+    <description language="0009">FRC 2018 Driver Station.</description>
+    <installOptionSetId>NoCustomInstall</installOptionSetId>
+    <warnings>
+      <warning isFatal="true">
+        <header language="0009">Microsoft Visual C++ 2015 Run-Time</header>
+        <info language="0009">You must update Windows to install Microsoft KB 2919355, which is prerequisite for the Microsoft Visual C++ 2015 Run-Time software. For more information, visit ni.com/info and enter the Info Code: KB2919355.</info>
+        <condition>NOT NIRUNNINGINMERGED AND NOT KB2919355DETECTED="YES"</condition>
+      </warning>
+    </warnings>
+    <setupExeVersion>17.0.0.211</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>17.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation>
+      <licensedProduct version="17.0.0">Vision_VisionRunTime_PKG</licensedProduct>
+    </activation>
+    <products>
+      <product UPC="{80E262AF-3B89-4EBA-AD9B-80F2FC66B495}" UPV="17.0.0" />
+      <product UPC="{2423B94D-3F80-4ACF-8A70-6F915686A010}" UPV="17.00.49154" />
+      <product UPC="{C0E6F5E5-6EB8-4FBB-A1C4-A707D5FA7B1A}" UPV="4.62.49152" />
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="17.00.49161" />
+      <product UPC="{96BD9F8A-9E99-4895-853D-0C326FCF82DD}" UPV="17.0.0" />
+      <product UPC="{3CAF4A2C-C24B-4915-82DD-B2364BF2C0E2}" UPV="2.10.49153" />
+      <product UPC="{DEF62E86-0CD9-4F2A-AF2C-433315E336C4}" UPV="17.0.0" />
+      <product UPC="{D93B1C0B-35E1-4F3E-7994-D41D561E495D}" UPV="17.0.0" />
+      <product UPC="{9FD9C452-C4DB-40A3-A24F-21F944007C0D}" UPV="15.0.1" />
+      <product UPC="{F79021AC-51E7-4E1B-B6FF-FDABD12C7851}" UPV="15.0.1" />
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="15.1.8" />
+      <product UPC="{99D796C3-2E53-4839-A25B-22C26B029103}" UPV="17.0.0" />
+      <product UPC="{C7BECC19-BF54-4D30-AB46-36CB0F132A95}" UPV="15.1.1" />
+      <product UPC="{EBFB4A39-BA18-46ED-8BD8-B68329AE6C63}" UPV="17.0.0" />
+      <product UPC="{29D354D8-3E7C-4C8F-B47C-40FEFC6518EB}" UPV="15.0.1" />
+      <product UPC="{769BB00F-977B-4908-8724-4E61A447D3A0}" UPV="17.00.49152" />
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="17.00.49156" />
+      <product UPC="{969970C9-8D34-471B-BFCE-582A529D7F9C}" UPV="15.0.1" />
+      <product UPC="{40C09552-571C-41BF-A2E5-57DE7BECB645}" UPV="17.00.49156" />
+      <product UPC="{603648C2-F0DE-4202-AB79-F5A5573BE1BC}" UPV="8.63.49152" />
+      <product UPC="{4AB5C609-E6BD-49D8-ADA6-7C277964E037}" UPV="8.63.49152" />
+      <product UPC="{4B45BB37-11FA-405F-B03E-CDF95844FEA0}" UPV="12.0.00258" />
+      <product UPC="{237A9FEC-ADA6-490D-8495-255110B30435}" UPV="13.5.00173" />
+      <product UPC="{C31FF6ED-6DD7-4D12-AE69-C1859CAB915F}" UPV="17.00.49152" />
+      <product UPC="{F4E16C1F-B3DF-41F8-91F9-89ECBFF985B9}" UPV="17.00.49156" />
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="17.00.49156" />
+      <product UPC="{9CB882D1-787B-4ABE-8852-7BECE72BFFE2}" UPV="17.00.49152" />
+      <product UPC="{E9E3329F-BD44-4251-9D6E-887D06E1C3B6}" UPV="17.00.49152" />
+      <product UPC="{C38655CE-C363-4614-BC7B-409C2D764896}" UPV="17.00.49152" />
+      <product UPC="{54583544-AF05-4350-B5A0-92D73EE29D05}" UPV="17.00.49152" />
+      <product UPC="{7EAF71A2-8437-49B1-BA22-EA188EA0807D}" UPV="17.00.49152" />
+      <product UPC="{55EB9A01-5527-417E-D085-2AD662D3CE7D}" UPV="17.0.0" />
+      <product UPC="{7076E039-4F6B-449C-AFF9-26754BA6309D}" UPV="17.00.49153" />
+      <product UPC="{FF337F6D-A326-4784-8338-6B4E07AA99FE}" UPV="17.00.49154" />
+      <product UPC="{F55A4E99-7032-4FE6-9AD8-159D8D91E21B}" UPV="17.00.49152" />
+      <product UPC="{7F93274E-66D0-495C-AF32-8D290689248C}" UPV="17.00.49152" />
+      <product UPC="{B13868CF-6183-4653-9DA8-C703D6D6E2BD}" UPV="17.00.49153" />
+      <product UPC="{E7B3EBAC-9E96-4365-A805-2680C0743195}" UPV="17.00.49152" />
+      <product UPC="{C2057F52-205A-484D-B321-FD91BADE5F4D}" UPV="17.00.49153" />
+      <product UPC="{7D01EC50-15A4-4890-87DC-4C340AA20462}" UPV="17.00.49152" />
+      <product UPC="{3F4821C0-CA31-45E6-910A-5102B11210DB}" UPV="17.00.49152" />
+      <product UPC="{34F9A444-990C-4515-A262-3F7DF834F114}" UPV="17.00.49153" />
+      <product UPC="{03B4905D-37CC-4BA0-AE3D-829F7BE8A1CA}" UPV="17.00.49152" />
+      <product UPC="{B6049E95-F70A-46B7-AE71-1C8045987260}" UPV="17.00.49152" />
+      <product UPC="{F9E80395-3126-43EC-814B-E5A747BF9A05}" UPV="17.0.0" />
+      <product UPC="{11DB38BB-D297-46A8-AE8A-89926768EBCD}" UPV="17.00.49156" />
+      <product UPC="{6C1BB3D4-8DC8-40B8-8C10-AB706AE2F3E7}" UPV="17.00.49152" />
+      <product UPC="{87E2F050-5707-4237-8E95-2EC14D5C62EF}" UPV="17.0.0" />
+      <product UPC="{69CD3987-B5D3-4BE5-A59E-346C07B1A21A}" UPV="17.0.0" />
+      <product UPC="{F0D3423D-BA79-409E-8C35-E7E3EA18E0DF}" UPV="17.0.0" />
+      <product UPC="{85997938-EF43-4D31-BED7-6C0D566F11B2}" UPV="17.00.49152" />
+      <product UPC="{D71C1D03-CA8F-4545-BDB5-103E99C719AE}" UPV="17.0.0" />
+      <product UPC="{0C03A9AC-DBFE-4A3A-B57B-FC1F00BBFB15}" UPV="2.00.49155" />
+      <product UPC="{D651BB3E-E22A-486B-8D6A-5D2706579ED0}" UPV="17.00.49154" />
+      <product UPC="{4AC897D8-117B-4076-C0BF-2932EAB6BB5A}" UPV="17.0.0" />
+      <product UPC="{C2624C6F-8CDE-4C6D-A8ED-724230405D13}" UPV="17.0.0" />
+      <product UPC="{DA3D9FF6-A4C8-4AD2-A249-CC6BC93BC96D}" UPV="17.0.0" />
+      <product UPC="{CBA7EDB3-A142-43B6-B68B-A723624F1375}" UPV="4.0.0" />
+      <product UPC="{6277CED1-7132-453B-B536-A52712CEC5A7}" UPV="5.9.0" />
+      <product UPC="{A3842A3B-E327-4F68-BEFF-552BE6206AA4}" UPV="5.9.0" />
+      <product UPC="{EF139152-A56F-47AD-BDF7-B64D7B1332FC}" UPV="17.00.49152" />
+      <product UPC="{C78E989A-5196-4269-9CD9-96B69A73DF42}" UPV="17.00.49152" />
+      <product UPC="{2058F21B-1D60-4DF5-83AB-CA593FB5A0D4}" UPV="17.00.49152" />
+      <product UPC="{A2B4145C-29E8-4D61-8BD1-B6C6C949BD73}" UPV="17.00.49152" />
+      <product UPC="{DA5A784D-A650-42A3-B689-BFED42ABDA71}" UPV="17.00.49152" />
+      <product UPC="{F1D7EF11-F422-4387-8E5B-B0F93FA7FE52}" UPV="17.00.49152" />
+      <product UPC="{D1FEAACF-339A-45BE-8E7C-EE9C5B4D29D0}" UPV="17.00.49152" />
+      <product UPC="{A1DD654C-E897-4C46-8077-12873C75D79D}" UPV="1.0.7.49152" />
+      <product UPC="{77E8E609-803B-46F0-9851-211D0A7DA362}" UPV="2.2.0" />
+      <product UPC="{A81A7F85-722A-4B0D-B058-BE087EF7730E}" UPV="2.2.0" />
+      <product UPC="{73661077-6E79-4C84-99E5-EB0924AB36B7}" UPV="15.0.1" />
+      <product UPC="{5AEFE368-A98F-4907-95F8-0990C94D577D}" UPV="17.0.0" />
+      <product UPC="{AB2B2694-7CF9-4CDD-8641-7555E1D59510}" UPV="17.0.0" />
+      <product UPC="{540F6FCD-9570-43E6-9B0D-FB788B78DD98}" UPV="15.5.0" />
+      <product UPC="{58118D91-FC4E-431F-418B-95E29A058B64}" UPV="15.5.0" />
+      <product UPC="{FB99B180-68F3-4D20-A3B7-CABFEDAB7F59}" UPV="17.0.0" />
+      <product UPC="{19018941-50AC-4709-A67F-2868C9755BEB}" UPV="17.00.49153" />
+      <product UPC="{EC9D676A-CEC2-479A-AADD-4FA1AD4DDB11}" UPV="17.00.49153" />
+      <product UPC="{E0D4EF38-0650-47E9-8CA6-34473E6CE37A}" UPV="17.0.0" />
+      <product UPC="{FC2A5113-0F5B-4103-BFF6-E84624323EC5}" UPV="17.00.49152" />
+      <product UPC="{784F5B15-D1DD-4F8F-961C-1E2AA561AF74}" UPV="17.00.49152" />
+      <product UPC="{5FA25D7B-C3EF-4735-B79C-58FA0C13454C}" UPV="17.00.49152" />
+      <product UPC="{F51127E2-3FF5-4A0E-8D4A-8159B9847D27}" UPV="17.00.49152" />
+      <product UPC="{10B8149C-3CD7-401E-8492-A00FE42EAAD4}" UPV="17.0.0" />
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="2.00.49152" />
+      <product UPC="{26A28F6B-2A51-4D57-91A7-87407133BC53}" UPV="5.16.49152" />
+      <product UPC="{B0738842-C659-410B-96B5-8BA3516F3F70}" UPV="17.00.49152" />
+      <product UPC="{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}" UPV="15.5.0" />
+      <product UPC="{4CD11BE6-6BB7-4082-8A27-C13771BC309B}" UPV="17.0.0" />
+      <product UPC="{8DEFF217-D0D3-4C27-88EC-33236613491F}" UPV="17.00.49152" />
+      <product UPC="{11D580A9-CAA9-4FAE-ACCE-008751A7AE9F}" UPV="16.0.1.24" />
+      <product UPC="{53DA765A-1744-4C18-8F3D-60BD72ED16BC}" UPV="8.04.0" />
+      <product UPC="{8839DD59-B53B-4B86-8C5C-DDB219F9EB3A}" UPV="9.10.49152" />
+      <product UPC="{68C3AC19-656F-4216-8335-4A938FCF5201}" UPV="10.10.49152" />
+      <product UPC="{4A26AAA1-9B05-48E3-B9CF-F91B75FC1262}" UPV="14.13.49153" />
+      <product UPC="{5AC65033-C780-4B28-A602-3EB460772B25}" UPV="17.00.49153" />
+      <product UPC="{C6D489D2-55F2-AE9E-88AA-656450D9CAD2}" UPV="2.7.8" />
+      <product UPC="{5D79C0C9-A15B-4A9B-AACF-1A2CF7761B70}" UPV="17.00.49152" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{C1EF7A68-D0A5-4EF8-8AB8-F89BEDF0D79B}" />
+      <product ProductVersion="17.00.49154" UpgradeCode="{F8D3F894-F912-4A7E-9318-0C547D37D033}" />
+      <product ProductVersion="4.62.49152" UpgradeCode="{22A7C1E9-D26D-4226-86C0-BFAD27D9365A}" />
+      <product ProductVersion="4.62.49152" UpgradeCode="{C2B25CCD-1C69-4AC7-A83F-FFE6F936BB04}" />
+      <product ProductVersion="2.10.49153" UpgradeCode="{0058F63B-2BD1-4BEF-89BC-DAA74C726870}" />
+      <product ProductVersion="15.18.49152" UpgradeCode="{3208ABC7-F535-4A01-9E28-E80B5E922AB9}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{1F26181B-7ADD-482F-BE80-20B5023C2580}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{9BC48AFE-B8CC-4C96-B90F-C6C08ED52465}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{DD8CE8FD-329B-49F9-A1C9-6235AE793E54}" />
+      <product ProductVersion="15.01.49152" UpgradeCode="{22B3F4FD-A882-4272-AB17-29D07770FACF}" />
+      <product ProductVersion="17.00.49156" UpgradeCode="{F17F2F80-5B15-499D-AA54-9C80FE178ACB}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{CFF3D0BB-CB86-4E4E-AAC4-50434C62F430}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{8F2DB6D9-100F-4A93-BE90-C97C46A1E076}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{6A17ED9F-8C3A-4D81-91AD-7AF5A7CB8F51}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{0360838C-2522-414F-A21F-023791ADE269}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{218CE599-0DC8-44C2-970B-DC901731A94F}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{4968D625-0E31-4E6E-B07F-B8177F7F5EC5}" />
+      <product ProductVersion="17.00.49154" UpgradeCode="{EAD464C4-8204-47D3-96E9-B7F2C42BCA6A}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{FE841125-CF76-4996-A36B-45010850774F}" />
+      <product ProductVersion="17.00.49154" UpgradeCode="{C44CBDF8-8421-4065-B145-B110E5078E25}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{C9D3CD5F-01D9-4B32-BB2E-74AD9BD44C6E}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{74F21AC5-C322-4C08-A633-38B440BC7D1C}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{47A950BD-6259-4796-B815-2836C31D1168}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{F9453BC3-4920-4D78-8CE5-48E90ED9071B}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{6FBF47A0-7D89-4B3B-BD6E-81BB3C52964B}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{7FAC66CA-F8CF-446C-9865-E70FCCE0CF4E}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{060088AC-ADC2-4C54-AB47-86640A2DD3AA}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{D5478861-18DE-412D-993C-982CB9F794BF}" />
+      <product ProductVersion="14.50.49155" UpgradeCode="{E00E27DD-D172-443A-B068-039B99A73D74}" />
+      <product ProductVersion="14.50.49155" UpgradeCode="{69AAE097-C2CB-472A-8EA1-6AF720CD06D5}" />
+      <product ProductVersion="15.50.49152" UpgradeCode="{F34D48C7-B939-4897-8131-504C226996E6}" />
+      <product ProductVersion="15.50.49152" UpgradeCode="{DBE9E287-C056-48AA-A69B-8DFA1FC0C111}" />
+      <product ProductVersion="16.01.49152" UpgradeCode="{4F2CE6A9-3E31-407E-AA8C-72F9DB28005C}" />
+      <product ProductVersion="16.01.49152" UpgradeCode="{6AE00338-15AD-4B40-9638-B81C67A13C47}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{277BE997-A072-43AF-A8A0-A0DB8E644D67}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{DAFE1F51-CC46-48D7-BC50-35823F56E8D4}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{9D0CB414-645E-4D32-AD23-4E042C39902F}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{0502156F-9595-4B3F-A77E-6CB5BF2E83F3}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{E2543666-999A-403A-8A26-C6DAE3669075}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{ABA7D958-8704-4395-9F06-A6F3AC59E948}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{F43EAC0A-56BD-4C51-86E5-2AA91DD7EC78}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{91F4BF2F-37EA-4861-8B46-4327AD8F7565}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{80521318-1367-47B5-B3AC-BDE66CDF9A2C}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{CCD7729F-4B50-4E91-9A67-A3B1F932F350}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{E250781F-9252-44B1-9482-EBBCE06C9BE1}" />
+      <product ProductVersion="17.00.49154" UpgradeCode="{F95A6064-12E6-4E41-931C-4D1B8DE33077}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{879F6C7B-F80A-4224-80EE-A2D7D6A2A8BB}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{8B686568-A29D-4713-97D8-A90A9AA9CB59}" />
+      <product ProductVersion="5.90.49152" UpgradeCode="{BA8875A0-3767-46E7-B3DE-09275F2716A0}" />
+      <product ProductVersion="5.90.49152" UpgradeCode="{DBF9AE3A-A372-4A5A-B473-CC37A0F607F4}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{B10C13EA-F8B4-4401-870D-092E263AB346}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{89C33605-199F-41DC-8468-62AB138F62DC}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{5B63CA17-6011-4A12-8398-7E76B0BD2A97}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{C3B27671-335D-4816-B189-3EAC7E5DB5E7}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{74CD996E-746D-4A5E-B7D9-4ED5FBAFCF0D}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{2E41587C-0BE1-455F-8CE6-671921397484}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{CB12E5AC-F1A7-45E9-BA02-93858377D1CA}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{E8A4850C-5FDA-4C58-BE1D-68DCA120D0BB}" />
+      <product ProductVersion="15.5.23" UpgradeCode="{8ED4296D-1D1E-47F8-9F06-25E2A4450F60}" />
+      <product ProductVersion="15.5.22" UpgradeCode="{5B17EDE1-E298-4505-A15F-5D3C42078A5E}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{9F41DEC8-7BC2-46BC-BB86-BD76FA24AB3A}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{7F4475D6-4602-47C8-A5F0-C896E5BA80F6}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{3E8031C7-F1D6-49F5-AF62-DC6967048197}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{AA14FF2B-A68E-46FF-8E13-CEC408EAF638}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{9E6F8810-2B42-4BE7-B2A9-FF923F67D93A}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{7F1AD3C9-7C3F-4F28-9361-F009C4708B20}" />
+      <product ProductVersion="2.00.49152" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}" />
+      <product ProductVersion="5.16.49152" UpgradeCode="{901B4C53-DD2C-42A7-B6E4-399F5D1E9C37}" />
+      <product ProductVersion="5.16.49152" UpgradeCode="{C367F489-E6B3-4FB8-9232-89CB32371A6B}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{69DC1832-0E76-4A9E-AE7F-825A202F6784}" />
+      <product ProductVersion="16.01.49152" UpgradeCode="{E14C752C-9307-4A71-B65E-E7B9CE0D063C}" />
+      <product ProductVersion="8.04.0" UpgradeCode="{9862423A-D7E8-4B60-A917-74A64634DBF1}" />
+      <product ProductVersion="9.10.49152" UpgradeCode="{C7ED6025-78DA-40E3-913B-310610D5C7AB}" />
+      <product ProductVersion="10.10.49152" UpgradeCode="{CE498322-C378-4658-BA31-2E893787DE28}" />
+      <product ProductVersion="14.13.49153" UpgradeCode="{CA17C748-8B26-41C5-8E58-BCAB06909BFC}" />
+      <product ProductVersion="14.13.49153" UpgradeCode="{ED7E4769-125A-49EC-8865-16560163B673}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{C1ED176F-5F97-4349-90BE-4B742ECC97B4}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{A497E263-56AE-44BD-B2B6-1497F3229135}" />
+      <product ProductVersion="2.78.49153" UpgradeCode="{AA45DC50-D076-4372-C70C-36AFD5F35A95}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{62A55332-6B77-48C2-BA40-AD1E9694B2B3}" />
+    </products>
+  </distribution>
+  <distribution id="UTILUPDATE">
+    <distId GUID="{854876B2-185D-4BCC-BE87-7B876E77D602}" languages="0009" packageGUID="{E868DF6D-CA83-4EA5-B7A2-4FDBBA167677}" version="17.0.0" />
+    <inputRoot suiteVolume="1">Distributions\FRC Utilities\</inputRoot>
+    <installOrder>300</installOrder>
+    <EULAId>FIRST Team Competition</EULAId>
+    <EULAId>NIStandardReleased</EULAId>
+    <distributionType>ADE</distributionType>
+    <name language="0009">FRC Utilities</name>
+    <description language="0009">FRC 2018 Utilities.</description>
+    <installOptionSetId>NoCustomInstall</installOptionSetId>
+    <warnings>
+      <warning isFatal="true">
+        <header language="0009">Microsoft Visual C++ 2015 Run-Time</header>
+        <info language="0009">You must update Windows to install Microsoft KB 2919355, which is prerequisite for the Microsoft Visual C++ 2015 Run-Time software. For more information, visit ni.com/info and enter the Info Code: KB2919355.</info>
+        <condition>NOT NIRUNNINGINMERGED AND NOT KB2919355DETECTED="YES"</condition>
+      </warning>
+    </warnings>
+    <setupExeVersion>17.0.0.211</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>17.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation />
+    <products>
+      <product UPC="{C0E6F5E5-6EB8-4FBB-A1C4-A707D5FA7B1A}" UPV="4.62.49152" />
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="17.00.49161" />
+      <product UPC="{5B16C0EA-FB4D-43AC-95C0-C3B9BB47AE49}" UPV="17.0.0" />
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="17.00.49156" />
+      <product UPC="{40C09552-571C-41BF-A2E5-57DE7BECB645}" UPV="17.00.49156" />
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="17.00.49156" />
+      <product UPC="{03B4905D-37CC-4BA0-AE3D-829F7BE8A1CA}" UPV="17.00.49152" />
+      <product UPC="{F9E80395-3126-43EC-814B-E5A747BF9A05}" UPV="17.0.0" />
+      <product UPC="{11DB38BB-D297-46A8-AE8A-89926768EBCD}" UPV="17.00.49156" />
+      <product UPC="{6C1BB3D4-8DC8-40B8-8C10-AB706AE2F3E7}" UPV="17.00.49152" />
+      <product UPC="{87E2F050-5707-4237-8E95-2EC14D5C62EF}" UPV="17.0.0" />
+      <product UPC="{69CD3987-B5D3-4BE5-A59E-346C07B1A21A}" UPV="17.0.0" />
+      <product UPC="{F0D3423D-BA79-409E-8C35-E7E3EA18E0DF}" UPV="17.0.0" />
+      <product UPC="{4AC897D8-117B-4076-C0BF-2932EAB6BB5A}" UPV="17.0.0" />
+      <product UPC="{5AEFE368-A98F-4907-95F8-0990C94D577D}" UPV="17.0.0" />
+      <product UPC="{E0D4EF38-0650-47E9-8CA6-34473E6CE37A}" UPV="17.0.0" />
+      <product UPC="{FC2A5113-0F5B-4103-BFF6-E84624323EC5}" UPV="17.00.49152" />
+      <product UPC="{5FA25D7B-C3EF-4735-B79C-58FA0C13454C}" UPV="17.00.49152" />
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="2.00.49152" />
+      <product UPC="{4A26AAA1-9B05-48E3-B9CF-F91B75FC1262}" UPV="14.13.49153" />
+      <product UPC="{5D79C0C9-A15B-4A9B-AACF-1A2CF7761B70}" UPV="17.00.49152" />
+      <product ProductVersion="4.62.49152" UpgradeCode="{22A7C1E9-D26D-4226-86C0-BFAD27D9365A}" />
+      <product ProductVersion="4.62.49152" UpgradeCode="{C2B25CCD-1C69-4AC7-A83F-FFE6F936BB04}" />
+      <product ProductVersion="17.00.49156" UpgradeCode="{F17F2F80-5B15-499D-AA54-9C80FE178ACB}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{ABA7D958-8704-4395-9F06-A6F3AC59E948}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{F43EAC0A-56BD-4C51-86E5-2AA91DD7EC78}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{91F4BF2F-37EA-4861-8B46-4327AD8F7565}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{80521318-1367-47B5-B3AC-BDE66CDF9A2C}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{CCD7729F-4B50-4E91-9A67-A3B1F932F350}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{879F6C7B-F80A-4224-80EE-A2D7D6A2A8BB}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{E8A4850C-5FDA-4C58-BE1D-68DCA120D0BB}" />
+      <product ProductVersion="17.00.49153" UpgradeCode="{AA14FF2B-A68E-46FF-8E13-CEC408EAF638}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{9E6F8810-2B42-4BE7-B2A9-FF923F67D93A}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{7F1AD3C9-7C3F-4F28-9361-F009C4708B20}" />
+      <product ProductVersion="2.00.49152" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}" />
+      <product ProductVersion="14.13.49153" UpgradeCode="{CA17C748-8B26-41C5-8E58-BCAB06909BFC}" />
+      <product ProductVersion="14.13.49153" UpgradeCode="{ED7E4769-125A-49EC-8865-16560163B673}" />
+      <product ProductVersion="17.00.49152" UpgradeCode="{62A55332-6B77-48C2-BA40-AD1E9694B2B3}" />
+    </products>
+  </distribution>
+  <distribution id="GAMEPADTOOL">
+    <distId GUID="{C7D2C3BC-43E3-427A-9285-BC21E9B256B4}" languages="0009" packageGUID="{8CAEE4BC-2152-4126-A502-9EAD5E8157D7}" version="17.0.0" />
+    <inputRoot suiteVolume="1">Distributions\FRC Gamepad Tool\</inputRoot>
+    <installOrder>400</installOrder>
+    <EULAId>FIRST Team Competition</EULAId>
+    <EULAId>NIStandardReleased</EULAId>
+    <distributionType>Other</distributionType>
+    <name language="0009">FRC Gamepad Tool</name>
+    <description language="0009">FRC 2018 Gamepad Tool.</description>
+    <installOptionSetId>NoCustomInstall</installOptionSetId>
+    <setupExeVersion>17.0.0.211</setupExeVersion>
+    <minimumRequiredVersionOfMetaSuiteBuilder>17.0.0</minimumRequiredVersionOfMetaSuiteBuilder>
+    <activation />
+    <products>
+      <product UPC="{6C7F4418-717F-4CA1-908D-9241950E40AB}" UPV="17.00.49161" />
+      <product UPC="{B35235B5-EA21-421C-9529-D97AF3BFE8F9}" UPV="17.0.0" />
+      <product UPC="{D5EA3A08-AD02-47C3-929E-7285BE9122B7}" UPV="17.00.49156" />
+      <product UPC="{CAE83C10-10F4-49EC-BC36-28CB5E064EB7}" UPV="17.00.49156" />
+      <product UPC="{D842EF4D-FD3E-41EA-8F6D-4A597CE0D6CC}" UPV="2.00.49152" />
+      <product ProductVersion="2.00.49152" UpgradeCode="{1D29F576-DD70-4519-9E7D-08E895F409A4}" />
+    </products>
+  </distribution>
+  <volumeInfo currentIndex="1">
+    <volume id="{7F8C1230-BB56-40A9-9035-33AD81D5EFBC}" index="1">
+      <volumeLabel>FRC_Update_Suite</volumeLabel>
+      <diskPrompt language="0009">FRC 2018 Update Suite</diskPrompt>
+    </volume>
+  </volumeInfo>
+  <serialGroup id="DSUPDATE">
+    <name language="0009">FRC Driver Station</name>
+  </serialGroup>
+  <EULA id="NIStandardReleased" isDisplayedAlone="false" isThirdParty="false">
+    <file displayName="NI" language="0009">Licenses\NI Released License Agreement - English.rtf</file>
+    <file displayName="NI" language="0010">Licenses\NI Released License Agreement - Spanish.rtf</file>
+    <file displayName="NI" language="0016">Licenses\NI Released License Agreement - Italian.rtf</file>
+    <file displayName="NI" language="0007">Licenses\NI Released License Agreement - German.rtf</file>
+    <file displayName="NI" language="0012">Licenses\NI Released License Agreement - French.rtf</file>
+    <file displayName="NI" language="0017">Licenses\NI Released License Agreement - Japanese.rtf</file>
+    <file displayName="NI" language="0018">Licenses\NI Released License Agreement - Korean.rtf</file>
+    <file displayName="NI" language="2052">Licenses\NI Released License Agreement - Simplified Chinese.rtf</file>
+  </EULA>
+  <EULA id="FIRST Team Competition" isDisplayedAlone="false" isThirdParty="false">
+    <file displayName="FIRST Competition" language="0009">Licenses\FIRST Team Competition License Agreement - English.rtf</file>
+  </EULA>
+  <EULA id="Silverlight_5.0" isDisplayedAlone="true" isThirdParty="true">
+    <file displayName="Microsoft Silverlight 5 EULA" language="0009">Licenses\Microsoft Silverlight 5 EULA - English.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0012">Licenses\Microsoft Silverlight 5 EULA - French.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0007">Licenses\Microsoft Silverlight 5 EULA - German.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0017">Licenses\Microsoft Silverlight 5 EULA - Japanese.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="0018">Licenses\Microsoft Silverlight 5 EULA - Korean.rtf</file>
+    <file displayName="Microsoft Silverlight 5 EULA" language="2052">Licenses\Microsoft Silverlight 5 EULA - Simplified Chinese.rtf</file>
+  </EULA>
+  <EULA id="SilverlightPrivacy_5.1" isDisplayedAlone="true" isThirdParty="true">
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0009">Licenses\Microsoft Silverlight 5.1 Privacy - English.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0012">Licenses\Microsoft Silverlight 5.1 Privacy - French.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0007">Licenses\Microsoft Silverlight 5.1 Privacy - German.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0017">Licenses\Microsoft Silverlight 5.1 Privacy - Japanese.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="0018">Licenses\Microsoft Silverlight 5.1 Privacy - Korean.rtf</file>
+    <file displayName="Microsoft Silverlight 5.1 Privacy Statement" language="2052">Licenses\Microsoft Silverlight 5.1 Privacy - Chinese.rtf</file>
+  </EULA>
+  <installOptionSet id="NoCustomInstall">
+    <installOption id="Custom" show="false" />
+  </installOptionSet>
+  <dialogs>
+    <dlgInstallationOption enable="false" />
+    <dlgConfirmStart enable="false" />
+  </dialogs>
+  <supportFiles>
+    <metautilsMsm>Bin\niMetaUtils.msm</metautilsMsm>
+  </supportFiles>
+  <localization>
+    <supportedLanguage>0009</supportedLanguage>
+    <forceLanguage>0009</forceLanguage>
+    <customResFile language="0009">Bin\Update_data0009.dll</customResFile>
+  </localization>
+  <customGraphic item="TopBar">
+    <bitmap>IDB_TOPSTRIP</bitmap>
+  </customGraphic>
+  <customGraphic item="FullScreen">
+    <bitmap>IDB_FULLSCREEN</bitmap>
+  </customGraphic>
+  <customText language="0009">
+    <string item="STR_GLOBAL_WINDOWTITLE">FRC 2018 Update Suite</string>
+    <string item="STR_INIT_WELCOME">
+    </string>
+  </customText>
+  <OSRestriction>
+    <OSVersion OSFamily="Version9X" max="" min="-1" />
+    <OSVersion OSFamily="VersionNT" max="" min="6,1,7601,1,0" />
+  </OSRestriction>
+  <PhoneHome>
+    <defaultState>1</defaultState>
+    <visible>1</visible>
+    <dllPath>Bin\</dllPath>
+  </PhoneHome>
+  <DotNetPreinstall>
+    <DotNet40Preinstall>true</DotNet40Preinstall>
+    <DotNet45Path>Common\Products\p4\NDP462-KB3151800-x86-x64-AllOS-ENU.exe</DotNet45Path>
+    <DotNet45Version>4.6.1590.0</DotNet45Version>
+  </DotNetPreinstall>
+  <supportFilesPath>Bin\</supportFilesPath>
+  <dedupeFilesPath>Bin\dedupelog.xml</dedupeFilesPath>
+  <longestPath>101</longestPath>
+  <persistSuiteInfoToRegistry>true</persistSuiteInfoToRegistry>
+  <minimumRequiredVersionOfBib>1.0</minimumRequiredVersionOfBib>
+</suiteDefinition>

@@ -1,17 +1,19 @@
 #Eclipse
-\.classpath
-\.project
-\.settings\
-Bin\
+.iml
+/.classpath
+/.project
+/.settings/
+/bin
+/.idea/
 
 #FIRST
-\build\
-Distrubutions\
-sysProps.xml\
+/build/
+Distributions/
+sysProps.xml/
 
 #Misc
-\misc\
-\raspberrypi\misc\
+/misc/
+/raspberrypi/misc/
 
 # Compiled class file
 *.class

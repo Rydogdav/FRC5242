@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+  <title>NI Software for FRC 2018 Update Readme</title>
+
+
+  <style type="text/css">
+/***************************************************/
+/* MINIMAL STYLES */
+/* The following section defines styles that every HTML Help project should need. */
+/* Specifies White Background color */
+body {background-color:#ffffff}
+/* The default style of P is red to alert you that you need to apply a style class, such as Body. */
+P { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:8pt; color: #000000; }
+BR { font-size:4.00pt; }
+H1,H2,H3,H4,H5,H6 { color:#000000 }
+/* Use H1 for all topic headings. */
+H1 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:12pt; font-weight:bold; }
+/* Use H2 for second-level headings. */
+H2 { margin-top:9.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:10pt; font-weight:bold; }
+/* Use H3 for third-level headings. */
+H3 { margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold; }
+/* Use H4 for fourth-level headings. */
+H4 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold; }
+/* H5 and H6 have the same definition as H4 because you should not need this level of heading in one topic. If you need to use H5 or H6, consider breaking up your topic into more than one topic. */
+H5 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold; }
+H6 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold; }
+/* Use the Body style class for normal paragraphs. */
+P.Body { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+/* Use the Anchor style class for graphic references on a line by themselves. */
+P.Anchor { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:10pt; color:#000000; }
+/* Use the Indent style classes to indent a paragraph. If you need to indent text below a list item, use <br></br> to start the new paragraph within the same set of <li></li> tags. If you need to indent a list within another list, nest the indented list within the first list's set of <ol></ol> or <ul></ul> tags. */
+P.Indent1 { margin-left:12.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+P.Indent2 { margin-left:24.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+P.Indent3 { margin-left:36.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+/* Use the LI style for all list items. */
+LI { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+/* Use the OL style for numbered lists. You do not have to type the number for each list item in a numbered list. */
+OL { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+/* Use the OL style for numbered lists. Nested lists will use the bullet types according to the nesting scheme below */
+ol ol {list-style-type:lower-alpha}
+ol ol ol {list-style-type:decimal}
+ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+/* Use the EquationNum style class for numbered lists of equations. You do not have to type the number for each list item in a numbered list. */
+OL.EquationNum { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+/* Use the List-abc style class for lettered lists. You do not have to type the letter for each list item in a lettered list. */
+OL.List-abc { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type:lower-alpha; }
+/* Use the UL style for bulleted lists. You do not have to type the bullet for each list item in a bulleted list. */
+UL { margin-left:12.00pt; text-indent:0pt; margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;}
+/* Use the List-Box style class for bulleted lists with boxes instead of bullets. You do not have to type the box for each list item in a box list. */
+UL.List-Box { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: square; }
+/* Use the Platform format to denote a specific platform. */
+.Platform { color: #0000FF; font-weight: bold; }
+/* Use the Borderless style class for tables that do not need borders, such as for 2-column or 3-column lists with no headings. */
+Table.Borderless { border:none; }
+/* Use the Bordered style class for tables that need borders. */
+Table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+/* Use the Borderless-Wide style class for tables that do not need borders and that you want to stretch to fill the entire topic width. */
+Table.Borderless-Wide { border:none; width:100%; }
+/* Use the Bordered-Wide style class for tables that need borders and that you want to stretch to fill the entire topic width. */
+Table.Bordered-Wide { border-width: 1pt; border-style: solid; border-color: #000000; width:100%; border-collapse: collapse; }
+/* Use the TD style for table cells in Borderless or Borderless-Wide tables. */
+TD { font-family:Verdana; font-size:8pt; color:#000000; vertical-align:top; padding:3px; }
+/* Use the Bordered style class for table cells in Bordered or Bordered-Wide tables. */
+TD.Bordered { font-family:Verdana; font-size:8pt; color:#000000; vertical-align:top; border-width: 1pt; border-style: solid; border-color: #000000; }
+/* Use the Icon style class for table cells that contain note, caution, warning, or tip icons, or LabVIEW datatype terminals. */
+TD.Icon { width:40px; vertical-align:top; }
+/* Use the Table-cell-8pt style class for table cells in tables that contain a lot of information and need smaller text to fit it all on one screen to prevent a horizontal scroll bar from appearing. */
+TD.Table-cell-8pt { font-family:Verdana; font-size:7pt; color:#000000; }
+/* Use the TH style for table heading cells in Borderless or Borderless-Wide tables. */
+TH { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; padding:3px; }
+/* Use the Bordered style class for table heading cells in Bordered or Bordered-Wide tables. */
+TH.Bordered { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; border-width: 1pt; border-style: solid; border-color: #000000; }
+/* Use the Table-cell-8pt style class for table heading cells in tables that contain a lot of information and need smaller text to fit it all on one screen to prevent a horizontal scroll bar from appearing. */
+TH.Table-Head-8pt { font-family:Verdana; font-size:7pt; color:#000000; font-weight:bold; }
+/* Use the Left-Align style class for table heading cells that you want to left align instead of center align. */
+TH.Left-Align { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; padding:3px; text-align:left; }
+/***************************************************/
+/* CHARACTER FORMATS */
+/* The following section defines character formats that every HTML Help project should need. */
+/* Use the Dark-Red format for warnings or cautions. */
+#Dark-Red { color: #800000 }
+/* Use the Monospace format for code or syntax examples. */
+#Monospace { font-family: "Courier New"; font-size: 8pt; }
+/* Use the Monospace-Bold format for messages and responses that the computer automatically prints to the screen. */
+#Monospace-Bold { font-family: "Courier New"; font-size: 8pt; font-weight: bold; }
+/* Use the Monospace-Italic format to denote text that is a placeholder for a word or value that the user must supply. */
+#Monospace-Italic { font-family: "Courier New"; font-size: 8pt; font-style: italic; }
+/* Use the Symbol format for characters not in the Verdana character set. Use this format sparingly. When possible, you should use the correct ASCII code for the symbol or use a graphic to recreate the symbol. */
+#Symbol { font-family: Symbol; font-size: 8pt; }
+/* The following styles define the color of links. */
+a:link { color: #007700 }
+a:hover { color: #FF0000 }
+a:active { color: #FF0000 }
+a:visited { color: #7F007F }
+/***************************************************/
+/* ACTIVITY STYLES */
+/* The following section defines styles that only tutorial-style HTML Help projects should need. */
+/* Use the Activity-Objective style class for the objective at the beginning of an activity topic. */
+H3.Activity-Objective { color: #800000; }
+/***************************************************/
+/* CODE STYLES */
+/* The following section defines styles that you need to format entire sections of code or syntax examples. If you have just a few words you need to format as a code or syntax example, use the Monospace character format. */
+P.Code { margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000; }
+P.Code1 { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000; }
+P.Code2 { margin-left:24.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000; }
+P.Code3 { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000; }
+/***************************************************/
+/* FUNCTION STYLES */
+/* The following section defines styles that you might need to format function reference help. */
+P.F-VI-Code4 { margin-left:48.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000; }
+P.F-VI-Code5 { margin-left:60.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000; }
+P.F-VI-Equation { margin-top:9.00pt; margin-bottom:9.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+OL.F-VI-EquationNum { margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+  </style>
+</head>
+
+
+<body>
+
+<h1>NI Software for FRC 2018 Update Readme</h1>
+
+<p class="Body">November 2017</p>
+
+<p class="Body">This file contains important information
+about the NI Software for FRC 2018 Update.</p>
+
+<hr>
+<h2><a name="overview">Overview</a></h2>
+
+<p class="Body">The NI Software for FRC 2018 Update is an
+update to the
+NI Software for FRC 2018 included in the FRC kit of parts. This update
+installs the following:</p>
+
+<ul>
+
+  <li><strong>(LabVIEW users only)</strong> LabVIEW
+Update</li>
+
+  <li>FRC Driver Station</li>
+
+  <li>FRC Utilities</li>
+
+</ul>
+
+<h2><a name="requirements">System Requirements</a></h2>
+
+<p class="Body">If you choose to program in LabVIEW, you
+must install
+the NI Software for FRC 2018 included in the FRC kit of parts (or
+online) before you can install this update. The NI Software for FRC
+2018 Update has the following minimum requirements:</p>
+
+<ul>
+
+  <li>Windows 10/8.1/7 SP1</li>
+
+</ul>
+
+<p class="Body">After installation you must run&nbsp;NI License Manager
+to activate the Vision Development Module Runtime Engine using the
+Serial Number provided in the FRC kit of parts. If you&nbsp;installed
+and activated the NI Software for FRC 2018 prior to this update, then
+the&nbsp;Vision Development Module Runtime Engine license will already be activated.</p>
+
+<h2><a name="fixedissues">Fixed Issues</a></h2>
+
+<p class="Body">Refer to the National Instruments FRC
+community website at <a href="http://ni.com/frc">ni.com/frc</a>
+for information about known issues, bug fixes, and troubleshooting
+LabVIEW for FRC. Refer to the FIRST website at <a href="http://www.firstinspires.org/robotics/frc">www.firstinspires.org/robotics/frc</a>
+for information about known issues in components of the NI Software for
+FRC 2018.</p>
+
+<h2><a name="installation">Installing the Update</a></h2>
+
+<p class="Body">Follow the steps on the <a href="http://ni.com/frc">ni.com/frc</a> website to
+install the NI Software for FRC 2018 Update.</p>
+
+<p class="Body">Refer to the FIRST website at <a href="http://www.firstinspires.org/robotics/frc">www.firstinspires.org/robotics/frc</a>
+for more information about the NI Software for FRC 2018 and related
+updates.</p>
+
+<hr>
+<p class="Body"><strong>Copyright</strong></p>
+
+<p class="Body">&copy; 2009&ndash;2017 National
+Instruments. All rights reserved.</p>
+
+<p class="Body">Under the copyright laws, this publication
+may not be
+reproduced or transmitted in any form, electronic or mechanical,
+including photocopying, recording, storing in an information retrieval
+system, or translating, in whole or in part, without the prior written
+consent of National Instruments Corporation.</p>
+
+<p class="Body">National Instruments respects the
+intellectual property
+of others, and we ask our users to do the same. NI software is
+protected by copyright and other intellectual property laws. Where NI
+software may be used to reproduce software or other materials belonging
+to others, you may use NI software only to reproduce materials that you
+may reproduce in accordance with the terms of any applicable license or
+other legal restriction.
+</p>
+
+<p class="Body"><strong>End-User License Agreements
+and Third-Party Legal Notices</strong></p>
+
+<p class="Body">You can find end-user license agreements
+(EULAs) and third-party legal notices in the following locations:</p>
+
+<ul>
+
+  <li>Notices are located in the <span id="Monospace">&lt;National
+Instruments&gt;\_Legal Information</span> and <span id="Monospace">&lt;National Instruments&gt;</span>
+directories.</li>
+
+  <li>EULAs are located in the <span id="Monospace">&lt;National
+Instruments&gt;\Shared\MDF\Legal\license</span> directory.</li>
+
+  <li>Review <span id="Monospace">&lt;National
+Instruments&gt;\_Legal Information.txt</span> for information
+on including legal information in installers built with NI products.</li>
+
+</ul>
+
+<p><strong>U.S. Government Restricted Rights</strong></p>
+
+<p>If you are an agency, department, or other entity of the
+United
+States Government ("Government"), the use, duplication, reproduction,
+release, modification, disclosure or transfer of the technical data
+included in this manual is governed by the Restricted Rights provisions
+under Federal Acquisition Regulation 52.227-14 for civilian agencies
+and Defense Federal Acquisition Regulation Supplement Section
+252.227-7014 and 252.227-7015 for military agencies.</p>
+
+<p><strong>IVI Foundation Copyright Notice</strong></p>
+
+<p><span class="DNL">Content from the IVI
+specifications reproduced with permission from the IVI Foundation.</span></p>
+
+<p><span class="DNL">The IVI Foundation and its
+member companies make
+no warranty of any kind with regard to this material, including, but
+not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The IVI Foundation and its member companies
+shall not be liable for errors contained herein or for incidental or
+consequential damages in connection with the furnishing, performance,
+or use of this material.</span></p>
+
+<p class="Body"><strong>Trademarks</strong></p>
+
+<p class="Body"><span class="DNL">LabVIEW</span>,
+<span class="DNL">National Instruments</span>, <span class="DNL">NI</span>, <span class="DNL">ni.com</span>,
+the <span class="DNL">National Instruments</span>
+corporate logo, and the Eagle logo are trademarks of <span class="DNL">National Instruments Corporation</span>.
+Refer to the <em><span class="DNL">Trademark
+Information</span></em> at <span id="Monospace">ni.com/trademarks</span>
+for other <a href="http://digital.ni.com/express.nsf/bycode/rdtrad" target="_blank"><span class="DNL">National
+Instruments</span> trademarks</a>.</p>
+
+<p class="Body">Other product and company names mentioned
+herein are trademarks or trade names of their respective companies.</p>
+
+<p class="Body"><strong>Patents</strong></p>
+
+<p class="Body">For patents covering the National
+Instruments products/technology, refer to the appropriate location: <strong>Help&raquo;Patents</strong>
+in your software, the <span id="Monospace">patents.txt</span>
+file on your media, or the <a href="http://digital.ni.com/express.nsf/bycode/rdlv17" target="_blank">National Instruments Patent Notice</a>
+at <span id="Monospace">ni.com/patents</span>.</p>
+
+</body>
+</html>
