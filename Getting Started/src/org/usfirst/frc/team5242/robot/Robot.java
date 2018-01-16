@@ -25,8 +25,8 @@ import edu.wpi.first.wpilibj.Solenoid;
 public class Robot extends IterativeRobot {
 	private Spark leftSpark = new Spark(0);  // pwm port 0 - left motor controller
 	private Spark rightSpark = new Spark(1); // pwm port 1 - right motor controller
-	
 	private DifferentialDrive drive = new DifferentialDrive(leftSpark, rightSpark); //2 motor drive
+	
 	private Joystick joystick = new Joystick(0);
 	
 	private Solenoid solXpand = new Solenoid(0);
